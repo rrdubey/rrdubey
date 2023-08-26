@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif ,'Times New Roman', Times, serif ;
+    background-color: lightgray;
+}
+
+.main-container{
+
+}
+
+.header{
+background-color: aqua;
+display: flex;
+height: 45px;
+}
+.news{
+    background: white;
+    position: relative;
+    left: 45px;
+    color: red;
+    height: 35px;
+    padding: 10px 20px 0px 20px
+}
+.marquee{
+    color: red;
+    padding: 0px 0px 0px 45px;
+    position: relative;
+    top: 13px;
+    width: 100%;
+}
+.navbar{
+  display: flex;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+}
+.logo-img{
+    margin-right: 600px;
+    height: 60px;
+    padding: 0px 40px;   
+}
+.list{
+    padding: 20px 0px 0px 20px;
+}
+li>a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* li>a.link{
+    color: black;
+} */
+
+/* li>a.active{
+    color:black;
+} */
+
+li>a:hover{
+    color: red;
+}
+button>a:hover{
+    color: red;
+
+}
+button>a{
+    text-decoration: none;
+    color: black;
+}
+.login-buttn{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.slideimage{
+    background-image: url("bg1.jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+}
+.slide-text{
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+    position: relative;
+    left: 60%;
+    top: 20%;
+}
+.slide-text-1{
+    font-weight: 600;
+    color: white;
+    position: relative;
+    left: 70%;
+    top: 20%;
+}
+.About-container{
+    display: flex;
+    width: calc(100% - 15px);
+    background-color: lightgray;
+    padding: 15px;
+}
+.about-text{
+    width: 90%;
+    padding: 15px;
+    max-height: 50vh;
+    text-align: justify;
+}
+.about-img{
+    width: 65%;
+    padding: 15px;
+}
+.img-abt{
+    height: 30vh;
+    width: 35%;
+    border-radius: 10px;
+}
+.abt-img-name{
+    font-weight: 900;
+    font-size: 20px;
+}
+.container-notice{
+    display: flex;
+    text-align: center;
+    background-color: lightgrey;
+    margin: 20px 40px 20px 40px;
+}
+.header-notic{
+    margin-left: 109px;
+    padding: 10px;
+    background-color: aqua;
+    width: 240px;
+    color:black;
+    font-weight: 900;
+}
+.notice-span{
+    display: inline-block;
+    width: 50%;
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+}
+.img-notic{
+    height: 30px;
+}
+.main-container-2{
+    display: flex;
+}
+
+.abuut-session{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.abc{
+    border-radius: 40px;
+    border: 20px solid white;
+    padding: 20px 10px;
+    height: 50vh;
+    text-align: justify;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+div>h3{
+    text-align: center;
+    font-weight: 800;
+}
+.img-container{
+    display: flex;
+    height: 100px;
+}
+.img-abt-us-1{
+    margin-left: 20px;
+    border-radius: 25%;
+    margin-top: 10px;
+}
+.img-abt-us-2{
+    margin-left: 320px;
+    border-radius: 25%;
+    margin-top: 10px;
+}
+.img-abt-us-3{
+    margin-left: 350px;
+    border-radius: 25%;
+    margin-top: 10px;
+
+}
+div>b{
+    margin-top: 15px;
+}
+.Certificate{
+    width: 56%;
+    height: 50vh;
+    position: relative;
+    left: 8.5px;
+}
+.Award{
+    left: -6px;
+    width: 53%;
+    height: 50vh;
+    position: relative;
+}
+.information{
+    left: 109px;
+    width: 50.5%;
+    text-align: justify;
+    background-color: white;
+    padding: 6px;
+    position: relative;
+    height: 48vh;
+    /* max-width: 48.5%; */
+}
+.School-Gallery-container{
+    width: 100%;
+}
+.Sch-Glry-Img{
+    padding: 20px 25px 25px 30px;
+    width: 21%;
+    height: 40vh;
+    border-radius: 25%;
+}
+.Partners-img{
+    height: 50px;
+    width: 100px;
+    padding: 10px 0px 10px 0px;
+}
+.footer{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+.Footer-img{
+    height: 50px;
+    width: 190px;
+}
+.footer-text{
+text-align: center;
+font-weight: 600;
+}

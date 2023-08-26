@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif ,'Times New Roman', Times, serif ;
+    background-repeat: round;
+    background-image: url("ser-f-2.jpg");
+}
+.main-container{
+    margin-left: 30%;
+    display: flex;
+    /* height: 100vh; */
+    margin-top: 2%;
+}
+/* navBar here */
+.navbar{
+    display: flex;
+    background-color: lightgray;
+  }
+  .nav-ul{
+      display: flex;
+      list-style: none;
+  }
+  .logo-img{
+    margin-right: 600px;
+    height: 60px;
+    padding: 0px 40px;   
+}
+.list{
+    padding: 10px 0px 0px 20px;
+}
+button>a:hover{
+    color: red;
+
+}
+button>a{
+    text-decoration: none;
+    color: black;
+}
+.login-buttn{
+    width: 80px;
+    height: 40px;
+    /* margin-top: 10px; */
+    margin-left: 5px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+li>a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li>a:hover{
+    color: red;
+}
+
+  /* to here */
+.login-container{
+    width: 30%;
+    height: 75vh;
+    margin-right: 20px;
+    BORDER: SOLID GREY 1PX;
+    /* width: 30%;
+    height: 70vh;
+    background-image:url("ser-f-2.jpg");
+    background-repeat: round; */
+}
+.register-container{
+    width: 30%;
+    height: 75vh;
+    margin-right: 20px;
+    BORDER: SOLID GREY 1PX;
+    /* width: 30%;
+    height: 70vh;
+    margin-right: 20px;
+    background-image:url("ser-f-2.jpg");
+    background-repeat: round; */
+}
+.register-head{
+    color: white;
+    background-color: palevioletred;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    height: 50px;
+    padding: 10px 0px 0px 0px;
+}
+.login-head{
+    color: white;
+    background-color:mediumslateblue;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    height: 50px;
+    padding: 10px 0px 0px 0px;
+}
+.input-box-reg{
+    margin: 5% 0px 0px 2%;
+    width: 75%;
+    color: white;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+}
+.InputBoxImg{
+    filter: invert(0.5);
+    width: 25px;
+    height: 25px;
+    margin: 22px 0px 15px 5px;
+}
+.InputBox{
+    display: flex;
+    border: 1px solid gray;
+}
+.input-box-log{
+    margin: 5% 0px 0px 2%;
+    width: 75%;
+    color: white;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+}
+.Agree{
+    margin: 10px 0px 0px 20px;
+    color: white;
+    
+}
+.SignUp-btn{
+    height: 40px;
+    width: 80%;
+    margin-left: 33px;
+    margin-top: 10px;
+    background-color: palevioletred;
+    box-shadow: 0px 0px 0px 1px palevioletred;
+    font-size: 15px;
+    font-weight: 600;
+}
+.SignIn-btn{
+    height: 40px;
+    width: 80%;
+    margin-left: 33px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 0px 1px mediumslateblue;
+    background-color:mediumslateblue;
+    font-size: 15px;
+    font-weight: 600;
+}
+div>a{
+    color: green;
+    text-decoration: none;
+}
+.member{
+    color: white;
+    margin: 10px 0px 0px 65px;
+}
+.continue{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.cont-img{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    
+}
+.Footer-img{
+    height: 40px;
+    display: flex;
+    width: 40px;
+}
+.Account{
+    text-align: center;
+    color: white;
+}
