@@ -88,11 +88,40 @@ body{
     width: 25%;
 }
 div>p{
-    text-align: justify;
     padding: 10px;
+    text-align: center;
     
 }
 .head-text{
     font-weight: 600;
     font-size: 18px;
 }
+
+.abuut-session{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+.marqueeCintainer{
+    background-color: lightgray;
+     border-radius: 5px;
+     margin-top: 5px;
+}
+.Partners-img{
+    height: 50px;
+    width: 100px;
+    padding: 10px 0px 10px 0px;
+}
+.footer{
+    text-align: center;
+}
+.Footer-img{
+    margin-top: 5px;
+    height: 50px;
+    width: 190px;
+}
+.footer-text{
+    text-align: center;
+    font-weight: 600;
+} 
