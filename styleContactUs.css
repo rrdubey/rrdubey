@@ -1,10 +1,16 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;   
+}
+body{
+    padding: 10px;
+
 }
 .navbar{
     display: flex;
+    background-color: lightgray;
+    border-radius: 5px;
   }
   .nav-ul{
       display: flex;
@@ -69,12 +75,13 @@
 .footerContainer{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .innerfooterContainer{
-    /* height: 50vh; */
-    border: 1px solid wheat;
-    width: 10%;
+    border: 1px solid lightgray;
+    width: calc(12% - 5px );
     text-align: center;
+    margin: 5px;
 }
 .footerImg{
     height: 20%;
@@ -87,4 +94,5 @@ div>p{
 }
 .head-text{
     font-weight: 600;
+    font-size: 18px;
 }
